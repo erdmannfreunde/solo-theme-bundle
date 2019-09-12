@@ -1,0 +1,24 @@
+{
+  "name": "erdmannfreunde/solo-theme-bundle",
+  "type": "metapackage",
+  "description": "Install SOLO Theme dependencies via Contao Manager or Composer",
+  "keywords": [
+    "contao theme",
+    "contao",
+    "theme",
+    "solo"
+  ],
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+        {
+            "name": "Dennis Erdmann",
+            "homepage": "https://erdmann-freunde.de"
+        }
+    ],
+  "require": {
+    "php": "^7.1",
+    "contao/core-bundle": "4.4.* || 4.7.*",
+    "erdmannfreunde/euf_nutshell": "^0.4",
+    "erdmannfreunde/euf_grid": "^2.2"
+  }
+}
