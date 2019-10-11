@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.3 (11.10.2019)
+- Anpassung der Ordner-Struktur. Es wird nun einheitlich der Ordner `theme` statt wie bisher `solo` verwendet
+- Ergänzung der fehlenden 4.8 SQL-DEMO-Datei
+
 ## 2.0.2 (16.09.2019)
 - Kompatibilität zu Contao 4.8 hergestellt
 
