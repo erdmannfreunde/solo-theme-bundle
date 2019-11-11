@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.1.0 (11.11.2019)
+- Webfonts werden nicht länger über Google, sondern vom eigenen Server geladen.  
+
 ## 2.0.3 (11.10.2019)
 - Anpassung der Ordner-Struktur. Es wird nun einheitlich der Ordner `theme` statt wie bisher `solo` verwendet
 - Ergänzung der fehlenden 4.8 SQL-DEMO-Datei
