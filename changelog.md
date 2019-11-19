@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0 (19.11.2019)
+- Die Demo der Server-Edition lässt sich nun direkt über den Contao Manager installieren, s.a. hhttps://erdmann-freunde.de/dokumentationen/contao-themes/theme-installieren/server-edition/theme-mit-demo/
+- Für die Instalallation _mit Demo_ und _ohne Demo_ gibt es nun getrennte ZIP-Archive
+
 ## 2.1.0 (11.11.2019)
 - Webfonts werden nicht länger über Google, sondern vom eigenen Server geladen.  
 
