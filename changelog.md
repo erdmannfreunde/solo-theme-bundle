@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.4.0 (15.09.2020)
+- Kompatibilität zu Contao 4.10 hergestellt 
+
 ## 2.3.0 (21.02.2020)
 - Kompatibilität zu Contao 4.9 hergestellt
 - Server Edition: Opera Vendorprefixes und falsche Symlinks wurden entfernt
