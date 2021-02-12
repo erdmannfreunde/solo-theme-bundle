@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.4.2 (12.02.2021)
+- Kompatibilität zum Contao Manager 1.4 bzw Composer 2 wiederhergestellt
+- Contao 4.4 Support eingestellt
+
+## 2.4.1 (13.10.2020)
+- veraltete README entfernt
+
 ## 2.4.0 (15.09.2020)
 - Kompatibilität zu Contao 4.10 hergestellt 
 
