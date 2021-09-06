@@ -1,5 +1,11 @@
 # Changelog
 
+# 2.6.0 (06.09.2021)
+- Unterstützung für Contao 4.12
+- Contao 4.11 Support eingestellt
+- Entwickler Edition: node und gulp aktualisiert
+- FIX: localconfig-Einstellungen lassen sich nun auch über die config.yml vornehmen
+
 ## 2.5.0 (06.03.2021)
 - Unterstützung für Contao 4.11
 - Contao 4.10 Support eingestellt
