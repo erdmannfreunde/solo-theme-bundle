@@ -1,6 +1,11 @@
 # Changelog
 
-# 2.6.0 (06.09.2021)
+## 2.7.0 (15.02.2022)
+- Unterstützung für Contao 4.13
+- Contao 4.12 Support eingestellt
+- Entwickler Edition: node und gulp aktualisiert, gulp tasks linter und images entfernt, da die Plugins nicht mehr aktualisiert werden und ein potenzielles Sicherheitsrisiko sind
+
+## 2.6.0 (06.09.2021)
 - Unterstützung für Contao 4.12
 - Contao 4.11 Support eingestellt
 - Entwickler Edition: node und gulp aktualisiert
