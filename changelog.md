@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.7.1 (25.03.2022)
+- PHP 8 Unterstützung
+- Entwickler Edition: node und gulp aktualisiert
+
 ## 2.7.0 (15.02.2022)
 - Unterstützung für Contao 4.13
 - Contao 4.12 Support eingestellt
