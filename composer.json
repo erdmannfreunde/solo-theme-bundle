@@ -20,7 +20,7 @@
     "contao/core-bundle": "^5.2",
     "nutshell-framework/nutshell": "^2.0",
     "erdmannfreunde/contao-grid-bundle": "^2.0",
-    "nutshell-framework/core-bundle": "dev-develop",
+    "nutshell-framework/core-bundle": "dev-develop as 1.0.0",
     "nutshell-framework/hero-element": "^1.0",
     "nutshell-framework/deployer-recipes": "^1.2",
     "erdmannfreunde/theme-toolbox": "^2.2"
