@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.0.0 (xx.xx.xxxx)
+- Komplett neue Version für Contao 5
+
 ## 2.7.2 (07.12.2022)
 - Entwickler Edition: postcss als Abhängigkeit ergänzt
 
