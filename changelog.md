@@ -1,7 +1,14 @@
 # Changelog
 
-## 3.0.0 (xx.xx.xxxx)
-- Komplett neue Version für Contao 5
+## 3.0.0 (16.02.2024)
+- SOLO für Contao 5.3 veröffentlicht
+
+## 3.0.0-RC2 (26.01.2024)
+- Verwendung der neuen Slider- und Akkordeon-Elemente (Nested Elements)
+- kleine Bugfixes behoben und nicht mehr genutzte CSS-Anweisungen entfernt 
+
+## 3.0.0-RC1 (09.01.2024)
+- Komplett neue Version für Contao 5.2
 
 ## 2.7.2 (07.12.2022)
 - Entwickler Edition: postcss als Abhängigkeit ergänzt

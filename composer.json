@@ -18,10 +18,9 @@
   "require": {
     "php": ">8.1",
     "contao/core-bundle": "^5.3",
-    "erdmannfreunde/contao-grid-bundle": "^2.0",
-    "erdmannfreunde/theme-toolbox": "^3.0",
     "nutshell-framework/nutshell": "^2.0",
-    "nutshell-framework/core-bundle": "dev-develop as 1.0.0",
-    "nutshell-framework/hero-element": "^1.0"
+    "erdmannfreunde/contao-grid-bundle": "^2.0",
+    "nutshell-framework/hero-element": "^1.0",
+    "erdmannfreunde/theme-toolbox": "^3.0"
   }
 }
