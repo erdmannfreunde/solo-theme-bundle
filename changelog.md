@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.0.1 (06.03.2024)
+- Die mobile Navigation wird nun standardäßig von einem Script ohne jQuery geöffnet/geschlossen.
+
 ## 3.0.0 (16.02.2024)
 - SOLO für Contao 5.3 veröffentlicht
 
