@@ -14,4 +14,12 @@ HIGHLIGHTS:
 - keine Copyright- oder Backlink-Pflicht notwendig
 - **SOLO nutzt die neuen verschachtelten Inhaltselemente für Akkordeon und Slider**
 
-[Mehr erfahren](https://erdmann-freunde.de/contao-themes/solo)
+Du möchtest SOLO im Einsatz sehen? Schau es dir in der Demo oder im Theme-Showcase an.
+
+- [Mehr über SOLO erfahren](https://erdmann-freunde.de/contao-themes/solo)
+- [Demo](https://solo-3.contao-theme.de/)
+- [Dokumentation](https://erdmann-freunde.de/dokumentationen/contao-themes)
+- [Theme-Showcase](https://erdmann-freunde.de/contao-themes/showcase)
+
+Weitere Contao Themes findest du hier: [Contao Themes](https://erdmann-freunde.de/contao-themes)
+
