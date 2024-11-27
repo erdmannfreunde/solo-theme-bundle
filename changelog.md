@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.1.0 ( 27.11.2024)
+
+- neue Theme Demo + Layout
+- Im Hero-Element kann nun ein zusätzliches Bild (unabhängig vom Hintergrund) gewählt und neben, über oder unter dem Text dargestellt werden
+- Elemente können nun animiert (z.B. Fade-In) werden, wenn sie im sichtbaren Bereich sind
+
 ## 3.0.2 (16.08.2024)
 
 - Theme auf Contao 5.3 LTS fixiert.
