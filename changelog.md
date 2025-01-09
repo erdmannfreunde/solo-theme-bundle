@@ -1,6 +1,13 @@
 # Changelog
 
-## 3.1.0 ( 27.11.2024)
+## 3.1.1 (09.01.2024)
+
+- CSS Animationen respektieren nun die Systemeinstellung „reduzierte Bewegung“ (prefer-reduced-motion)
+- Veraltete Vendor-Prefixes wurden entfernt. Prefixes werden nur noch ergänzt, wenn > 5% der Browser weltweit (laut caniuse) diese benötigen. Dadurch werden die SCSS-Dateien nun deutlich übersichtlicher und etwas kleiner.
+
+Theme-Anpassungen kannst du über die [UPDATE.md](UPDATE.md) nachvollziehen.
+
+## 3.1.0 (27.11.2024)
 
 - neue Theme Demo + Layout
 - Im Hero-Element kann nun ein zusätzliches Bild (unabhängig vom Hintergrund) gewählt und neben, über oder unter dem Text dargestellt werden
