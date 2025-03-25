@@ -1,6 +1,15 @@
 # Changelog
 
-## 3.1.1 (09.01.2024)
+## 3.1.2 (25.03.2025)
+
+- Akkordeon: Plus-Icon wird in mehrzeigen Togglern korrekt dargestellt.
+- Theme Toolbox: Klasse „Artikel volle Breite“ verschoben
+- Theme Switcher optimiert:
+  - mögliche JS-Fehler werden abgefangen
+  - Javascript wid nun über das Frontend Modul geladen und muss im Seitenlayout nicht separat (de-)aktiviert werden
+- Caching für JS-Animation reaktiviert
+
+## 3.1.1 (09.01.2025)
 
 - CSS Animationen respektieren nun die Systemeinstellung „reduzierte Bewegung“ (prefer-reduced-motion)
 - Veraltete Vendor-Prefixes wurden entfernt. Prefixes werden nur noch ergänzt, wenn > 5% der Browser weltweit (laut caniuse) diese benötigen. Dadurch werden die SCSS-Dateien nun deutlich übersichtlicher und etwas kleiner.
