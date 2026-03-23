@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.0 (23.03.2026)
+
+Unterstützung für Contao 5.7 LTS. Standardmäßig wird nun Contao 5.7 bei Neuinstallationen als Basis verwendet. Bestehende Contao 5.3 Installationen können direkt über den Manager auf Contao 5.7 aktualisiert werden.
+
 ## 3.1.2 (25.03.2025)
 
 - Akkordeon: Plus-Icon wird in mehrzeigen Togglern korrekt dargestellt.
