@@ -1,6 +1,6 @@
 {
   "name": "erdmannfreunde/solo-theme-bundle",
-  "type": "metapackage",
+  "type": "contao-bundle",
   "description": "Install SOLO Theme dependencies via Contao Manager or Composer",
   "keywords": [
     "contao theme",
@@ -23,5 +23,13 @@
     "nutshell-framework/hero-element": "^1.0",
     "erdmannfreunde/theme-toolbox": "^4.0",
     "erdmannfreunde/contao-ping-bundle": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ErdmannFreunde\\SoloThemeBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "ErdmannFreunde\\SoloThemeBundle\\ContaoManager\\Plugin"
   }
 }
