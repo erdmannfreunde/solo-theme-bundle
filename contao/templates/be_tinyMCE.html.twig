@@ -1,7 +1,7 @@
 {% extends '@Contao/be_tinyMCE.html.twig' %}
 
   {% block content_css %}
-    content_css: '/assets/lasr-theme/css/tinymce.css',
+    content_css: '/assets/solo-theme/css/tinymce.css',
     style_formats_merge: true,
     style_formats: [
       {title: 'Theme Styles', items: [
@@ -13,9 +13,19 @@
   {% endblock %}
 
   {% block plugins %}
-    plugins: 'autosave charmap code fullscreen image importcss link lists searchreplace stripnbsp table visualblocks visualchars',
+    plugins: 'autosave charmap code fullscreen image importcss link lists searchreplace stripnbsp table visualblocks visualchars, template',
   {% endblock %}
 
   {% block toolbar %}
-    toolbar: 'link unlink | image | bold italic | styles | bullist numlist outdent indent | undo redo | code',
+    toolbar: 'link unlink | image | bold italic | styles | bullist numlist outdent indent | undo redo | template | code',
   {% endblock %}
+
+
+
+  {% block custom %}
+    templates: [
+      {title: 'Zitatblock', description: 'Zitat nach W3C', content: '<blockquote><p>Dies ist ein Zitat</p><footer><cite>Max Mustermann</cite></footer></blockquote>'},
+    ],
+  {% endblock %}
+
+<?php endif; ?>
