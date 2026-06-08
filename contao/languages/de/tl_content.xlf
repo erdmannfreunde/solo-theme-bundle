@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_content.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_content.quote_text.0">
+        <source>Quote</source>
+        <target>Zitat</target>
+      </trans-unit>
+      <trans-unit id="tl_content.quote_text.1">
+        <source>Enter the quote text.</source>
+        <target>Geben Sie den Zitattext ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.quote_author.0">
+        <source>Author</source>
+        <target>Autor</target>
+      </trans-unit>
+      <trans-unit id="tl_content.quote_author.1">
+        <source>Enter the name of the quoted person.</source>
+        <target>Geben Sie den Namen der zitierten Person ein.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

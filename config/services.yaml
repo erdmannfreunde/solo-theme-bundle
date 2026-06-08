@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  # Content-Element-Controller (#[AsContentElement]) automatisch registrieren
+  ErdmannFreunde\SoloThemeBundle\Controller\:
+    resource: '../src/Controller/'

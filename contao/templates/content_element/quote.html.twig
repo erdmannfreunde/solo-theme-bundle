@@ -1,0 +1,36 @@
+{% extends '@Contao/content_element/_base.html.twig' %}
+{% use '@Contao/component/_figure.html.twig' %}
+
+{% set content_layout_attributes = attrs()
+    .addClass('media media--' ~ layout, layout and image)
+    .mergeWith(content_layout_attributes|default)
+%}
+
+{# By default we add the layout attributes to the wrapper element. If you want to
+ disable this behavior, set "default_content_layout" to false. #}
+{% set attributes = attrs(attributes|default)
+    .mergeWith(content_layout_attributes, default_content_layout is not defined or default_content_layout)
+%}
+
+{% block quote_media %}
+    {% if image %}
+        {% with {figure: image} %}{{ block('figure_component') }}{% endwith %}
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% if layout != 'below' %}
+        {{ block('quote_media') }}
+    {% endif %}
+
+    <figure class="quote">
+        <blockquote>{{ quote_text|nl2br }}</blockquote>
+        {% if quote_author %}
+            <figcaption><cite>{{ quote_author }}</cite></figcaption>
+        {% endif %}
+    </figure>
+
+    {% if layout == 'below' %}
+        {{ block('quote_media') }}
+    {% endif %}
+{% endblock %}
