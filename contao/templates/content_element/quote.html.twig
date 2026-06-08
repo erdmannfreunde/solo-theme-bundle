@@ -24,7 +24,11 @@
     {% endif %}
 
     <figure class="quote">
-        <blockquote>{{ quote_text|nl2br }}</blockquote>
+        <blockquote>
+            {%- for paragraph in quote_paragraphs -%}
+                <p>{{ paragraph|raw }}</p>
+            {%- endfor -%}
+        </blockquote>
         {% if quote_author %}
             <figcaption><cite>{{ quote_author }}</cite></figcaption>
         {% endif %}

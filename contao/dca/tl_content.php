@@ -11,7 +11,7 @@ $GLOBALS['TL_DCA']['tl_content']['palettes']['quote'] = '{type_legend},type,head
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['quote_text'] = array(
 	'inputType' => 'textarea',
-	'eval'      => array('mandatory' => true, 'tl_class' => 'clr'),
+	'eval'      => array('mandatory' => true, 'basicEntities' => true, 'tl_class' => 'clr'),
 	'sql'       => "text NULL",
 );
 

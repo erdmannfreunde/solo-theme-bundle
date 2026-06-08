@@ -21,7 +21,15 @@ class QuoteController extends AbstractContentElementController
 
     protected function getResponse(FragmentTemplate $template, ContentModel $model, Request $request): Response
     {
-        $template->set('quote_text', $model->quote_text ?: '');
+        // In Absätze aufteilen (Leerzeile = neuer Absatz, einfacher Umbruch = <br>).
+        // Der Wert ist durch basicEntities bereits HTML-sicher (z. B. [-] -> &shy;),
+        // daher im Template roh ausgeben.
+        $paragraphs = array_map(
+            static fn (string $paragraph): string => nl2br(trim($paragraph), false),
+            preg_split('/\R{2,}/u', trim((string) $model->quote_text), -1, PREG_SPLIT_NO_EMPTY) ?: [],
+        );
+
+        $template->set('quote_paragraphs', $paragraphs);
         $template->set('quote_author', $model->quote_author ?: '');
 
         $figure = !$model->addImage ? null : $this->studio
