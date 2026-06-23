@@ -18,7 +18,7 @@ Du möchtest SOLO im Einsatz sehen? Schau es dir in der Demo oder im Theme-Showc
 
 - [Mehr über SOLO erfahren](https://www.flow-contao-themes.de/contao-themes/solo)
 - [Demo](https://solo-4.contao-theme.de/)
-- [Dokumentation](https://erdmann-freunde.de/dokumentationen/contao-themes)
-- [Theme-Showcase](https://erdmann-freunde.de/contao-themes/showcase)
+- [Dokumentation](https://docs.flow-contao-themes.de)
+- [Theme-Showcase](https://www.flow-contao-themes.de/contao-themes/showcase)
 
-Weitere Contao Themes findest du hier: [Contao Themes](https://erdmann-freunde.de/contao-themes)
+Weitere Contao Themes findest du hier: [Contao Themes](https://www.flow-contao-themes.de/contao-themes)
