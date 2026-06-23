@@ -2,9 +2,9 @@
 
 SOLO ist ein Contao Theme für Agenturen, mit dem du eine professionelle Website für Solopreneure erstellen kannst. Es ist perfekt für Musiker:innen, Sporter:innen, Autor:innen, Coaches und viele weitere Einzelpersonen.
 
-SOLO basiert auf dem [Nutshell Framework](https://github.com/nutshell-framework) und wurde in Version 3 speziell für Contao 5.3 LTS entwickelt. Das Theme ist für alle gängigen Geräte (Smartphones, Tablets, Desktop) und Browser (Chrome, Firefox, MS Edge, Safari) optimiert.
+SOLO basiert auf dem [Nutshell Framework](https://github.com/nutshell-framework) und wurde in Version 4 speziell für Contao 5.7 LTS entwickelt. Das Theme ist für alle gängigen Geräte (Smartphones, Tablets, Desktop) und Browser (Chrome, Firefox, MS Edge, Safari) optimiert.
 
-HIGHLIGHTS: 
+HIGHLIGHTS:
 
 - einfache Installation über den Contao Manager oder das Contao Backend
 - einfache Farbanpassungen über Custom Properties (CSS Variablen)
@@ -16,10 +16,9 @@ HIGHLIGHTS:
 
 Du möchtest SOLO im Einsatz sehen? Schau es dir in der Demo oder im Theme-Showcase an.
 
-- [Mehr über SOLO erfahren](https://erdmann-freunde.de/contao-themes/solo)
-- [Demo](https://solo-3.contao-theme.de/)
+- [Mehr über SOLO erfahren](https://www.flow-contao-themes.de/contao-themes/solo)
+- [Demo](https://solo-4.contao-theme.de/)
 - [Dokumentation](https://erdmann-freunde.de/dokumentationen/contao-themes)
 - [Theme-Showcase](https://erdmann-freunde.de/contao-themes/showcase)
 
 Weitere Contao Themes findest du hier: [Contao Themes](https://erdmann-freunde.de/contao-themes)
-
